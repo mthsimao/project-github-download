@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.img-pq {
+    max-width: 960px;
+    width: 100%;
+}
