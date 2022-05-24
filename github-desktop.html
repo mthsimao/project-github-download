@@ -8,24 +8,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         
-        <nav>
-            <img src="images/desktop-icon.svg" alt="GitHub icon">
+        <div class="desktop-icon">
+            <img src="images/desktop-icon.png" alt="GitHub icon">
+        </div><!--desktop-icon-->
+
+        <nav class="nav-header">
             <a href="#">Overview</a>
             <a href="#">Realese Notes</a>
             <a href="#">Help</a>
-        </nav>
-    </header>
+        </nav><!--nav-header-->
+
+    </header><!--header-->
 
     <main>
-        <section class="container-1">
+        <section class="container-main">
 
             <div class="center-container">
 
-                <h1>GitHub Desktop</h1>
-                <p>Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.</p>
-                <a class="btn-downlaod" href="https://central.github.com/deployments/desktop/desktop/latest/win32">Download for Windows (64bit)</a>
+                <div class="container-1">
+                    <h1>GitHub Desktop</h1>
+                    <p>Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user,<br> GitHub Desktop simplifies your development workflow.</p>
+                    <div class="btn-download">
+                        <a class="btn" href="https://central.github.com/deployments/desktop/desktop/latest/win32">Download for Windows (64bit)</a>
+                    </div>
+                </div>
 
                 <div class="container-2">
                     <div>

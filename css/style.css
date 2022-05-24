@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #9f7be1;
+    --cor3: #a983f0;
+    --cor2: #492a81;
+    --cor-background: #1b1b1b;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +14,54 @@
 }
 
 body {
-    background-color: gray;
+    background-color: var(--cor-background);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.desktop-icon {
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.desktop-icon img {
+    width: 110px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.nav-header a {
+    color: var(--cor1);
+    text-decoration: none;
+}
+.nav-header a:hover {
+    text-decoration: underline;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.container-1 {
+    margin: 30px 30px 40px 30px;
+}
+.container-1 h1 {
+    font-size: 48px;
+    font-weight: 400;
+    padding: 20px 20px 10px 20px;
+}
+.container-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px 20px 10px;
+}
+
 
 .img-pq {
     max-width: 960px;
