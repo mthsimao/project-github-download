@@ -186,6 +186,13 @@ body {
     text-align: center;
     padding-top: 10px;
 }
+.text-c5-p a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+.text-c5-p a:hover {
+    text-decoration: underline;
+}
 
 .btn-c5 {
     margin-top: 50px;
@@ -203,3 +210,44 @@ body {
     background-color: white;
 }
 
+hr {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    border: 0;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    overflow: hidden;
+}
+
+.footer {
+    margin: 40px 20px;
+}
+
+.footer-content ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-content ul li {
+    list-style-type: none;
+}
+
+.footer-content a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin: 15px;
+    font-size: 14px;
+    color: #586069;
+    text-align: center;
+}
